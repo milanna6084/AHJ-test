@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="content-wrapper">
+    <h1>Check your credit card number</h1>
+    <div class = "cards-img">
+      <div>
+        <img src="./img/visa.png" class = "card" data-pay-system="visa">
+      </div>
+      <div>
+        <img src="./img/master-card.png" class = "card" data-pay-system="master-card">
+      </div>
+      <div>
+        <img src="./img/american-express.png" class = "card" data-pay-system="american-express">
+      </div>
+      <div>
+        <img src="./img/diners-club.png" class = "card" data-pay-system="diners-club">
+      </div>
+      <div>
+        <img src="./img/discover.png" class = "card" data-pay-system="discover">
+      </div>
+      <div>
+        <img src="./img/jsb.png" class = "card" data-pay-system="jsb">
+      </div>
+      <div>
+        <img src="./img/mir.png" class = "card" data-pay-system="mir">
+      </div>
+    </div>
+    <form id = "form">
+      <input type="text" placeholder="Credit card number" value = "" data-id = "card-number-input">
+      <button type = "button" class = "button">Click to validate</button>
+    </form>
+    <div class="message"></div>
+  </div>
+</body>
+</html>
