@@ -1,9 +1,2 @@
-{
-    "version":3,
-    "file":"index.js",
-    "sourceRoot":"",
-    "sources":["../src/index.ts"],
-    "names":[],
-    "mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,aAAa,CAAC;AAEvC,SAAS,SAAS;IACd,MAAM,OAAO,GAAG,QAAQ,CAAC,aAAa,CAAC,KAAK,CAAC,CAAC;",
-    "sourcesContent": []
-}
+https://milanna6084.github.io/AHJ-test/
+[![Build status](https://ci.appveyor.com/api/projects/status/prr4hse016tpkxn2?svg=true)](https://ci.appveyor.com/project/milanna6084/ahj-test)
